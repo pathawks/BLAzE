@@ -1,0 +1,54 @@
+:"BLAZE
+ClrHome
+ClrDraw
+AxesOff
+Horiz
+4→dim(ʟBLAZE
+ʟBLAZE(1→A
+ʟBLAZE(2→B
+ʟBLAZE(3→D
+Text(0,37,"BLAzE
+Text(10,0,"1:
+Text(17,0,"2:
+Text(24,0,"3:
+𝖤1
+Text(10,Ans,A
+Text(17,Ans,B
+Text(24,Ans,D
+Pause "BY PAT HAWKS
+Disp "  READY
+2𝖤2
+For(C,0,Ans
+End
+Output(3,5,"SET
+For(L,Ans,4,–1
+End
+Output(4,7,"GO
+For(C,𝖤2,8,–1
+End
+For(E,𝖤3,0,–1
+If rand >rand  and L>2:Then:L-1→L
+Else:If 15>L+int(E/𝖤2:L+1→L:End
+Disp "
+Output(4,L+int(E/𝖤2),"(*
+Output(4,L,"*)
+getKey-20→F
+If C≤L+1=1≥L+int(E/𝖤2:Goto B
+If F=5:Pause 
+If F=4:C-1→C
+If F=6:C+1→C
+Output(3,C,"θ
+End
+End
+Lbl B
+ClrHome
+𝖤3-E→ʟBLAZE(4
+SortD(ʟBLAZE
+If Ans>A:Disp "NEW HIGH SCORE
+If Ans>B and Ans<A:Disp "2ND PLACE
+If Ans>D and Ans<B:Disp "3RD PLACE
+If Ans<D:Disp "SCORE
+Pause Ans
+ClrHome
+ClrDraw
+Full
