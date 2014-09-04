@@ -32,11 +32,11 @@ Else:If 15>L+int(E/𝖤2:L+1→L:End
 Disp "
 Output(4,L+int(E/𝖤2),"(*
 Output(4,L,"*)
-getKey-20→F
+getKey-20
 If C≤L+1=1≥L+int(E/𝖤2:Goto B
-If F=5:Pause 
-If F=4:C-1→C
-If F=6:C+1→C
+If Ans=5:Pause
+If Ans=4:C-1→C
+If Ans=6:C+1→C
 Output(3,C,"θ
 End
 End
