@@ -17,23 +17,23 @@ Text(17,Ans,B
 Text(24,Ans,D
 Pause "BY PAT HAWKS
 Disp "  READY
-2𝖤2
+2⋿2
 For(C,0,Ans
 End
 Output(3,5,"SET
 For(L,Ans,4,–1
 End
 Output(4,7,"GO
-For(C,𝖤2,8,–1
+For(C,⋿2,8,–1
 End
-For(E,𝖤3,0,–1
+For(E,⋿3,0,–1
 If rand >rand  and L>2:Then:L-1→L
-Else:If 15>L+int(E/𝖤2:L+1→L:End
+Else:If 25>L+int(E/⋿2:L+1→L:End
 Disp "
-Output(4,L+int(E/𝖤2),"(*
+Output(4,L+int(E/⋿2),"(*
 Output(4,L,"*)
 getKey-20
-If C≤L+1=1≥L+int(E/𝖤2:Goto B
+If C≤L+1=1≥L+int(E/⋿2:Goto B
 If Ans=5:Pause
 If Ans=4:C-1→C
 If Ans=6:C+1→C
@@ -42,7 +42,7 @@ End
 End
 Lbl B
 ClrHome
-𝖤3-E→ʟBLAZE(4
+⋿3-E→ʟBLAZE(4
 SortD(ʟBLAZE
 If Ans>A:Disp "NEW HIGH SCORE
 If Ans>B and Ans<A:Disp "2ND PLACE
