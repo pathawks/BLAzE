@@ -1,4 +1,5 @@
 :"BLAZE
+:"00E003B0033006380E180C180C301FF01FF01870186018E018C019800F000000
 ClrHome
 ClrDraw
 AxesOff
@@ -11,7 +12,7 @@ Text(0,37,"BLAzE
 Text(10,0,"1:
 Text(17,0,"2:
 Text(24,0,"3:
-𝖤1
+15
 Text(10,Ans,A
 Text(17,Ans,B
 Text(24,Ans,D
@@ -28,12 +29,12 @@ For(C,⋿2,8,–1
 End
 For(E,⋿3,0,–1
 If rand >rand  and L>2:Then:L-1→L
-Else:If 25>L+int(E/⋿2:L+1→L:End
+Else:If 15>L+int(E/⋿2:L+1→L:End
 Disp "
 Output(4,L+int(E/⋿2),"(*
 Output(4,L,"*)
+If (C≤L+1)+(C≥L+int(E/⋿2:Goto B
 getKey-20
-If C≤L+1=1≥L+int(E/⋿2:Goto B
 If Ans=5:Pause
 If Ans=4:C-1→C
 If Ans=6:C+1→C
